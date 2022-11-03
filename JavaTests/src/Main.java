@@ -7,6 +7,8 @@ public class Main {
 		boolean switch1 = false;
 
 		String sum = alex + num1;
+		String sum2 = alex + switch1;
+		//String sum3 = num1 + switch1; //undefined
 		
 		
 		System.out.println("Hello World");
@@ -22,5 +24,15 @@ public class Main {
 		else { // "alex instanceof Integer" Gibt Fehler beim kompeilieren 
 			System.out.println("no");
 		}
+		
+		System.out.println(sum.getClass());// String + Integer -> String
+		System.out.println(sum2.getClass());// String + Boolean -> String
+		//System.out.println(sum3.getClass());// num + Boolean -> undefined
+		
+		
+		System.out.println(5%3);// Modulus -> Rest von 5/3 ( 2 )
+		Animal animal1 = new Animal();
+		
+		animal1.myMethod();
 	}
 }
