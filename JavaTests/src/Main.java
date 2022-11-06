@@ -33,6 +33,7 @@ public class Main {
 		System.out.println(5%3);// Modulus -> Rest von 5/3 ( 2 )
 		Animal animal1 = new Animal();
 		
-		animal1.myMethod();
+		animal1.myMethod(); //mit public void
+		//Animal.myMethod3();// mit public static
 	}
 }
