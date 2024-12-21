@@ -1,6 +1,6 @@
 
 public class Cat extends Animal {
-	String sound = "meow";
+	final String sound = "meow";
 	
 	public static void main(String args[]) {
 		System.out.println("meow");

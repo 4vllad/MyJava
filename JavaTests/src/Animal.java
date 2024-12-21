@@ -1,6 +1,6 @@
 
 public class Animal {
-	String type = "animal";
+	final String type = "animal";
 	
 	
 	public void myMethod() { // Nur mit Erstellen eines Objektes möglich
